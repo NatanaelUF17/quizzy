@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F933BED-98AF-4001-9B2C-786B3229E16D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizzy.Data", "src\Quizzy.Data\Quizzy.Data.csproj", "{D3464483-AF2B-489B-AC14-822B4879BA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizzy.Core", "src\Quizzy.Core\Quizzy.Core.csproj", "{32914711-102C-44D1-9DA5-08D4335673FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quizzy.Api", "src\Quizzy.Api\Quizzy.Api.csproj", "{61496509-6570-4111-B43D-BD4BD15493C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3464483-AF2B-489B-AC14-822B4879BA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3464483-AF2B-489B-AC14-822B4879BA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3464483-AF2B-489B-AC14-822B4879BA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3464483-AF2B-489B-AC14-822B4879BA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32914711-102C-44D1-9DA5-08D4335673FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32914711-102C-44D1-9DA5-08D4335673FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32914711-102C-44D1-9DA5-08D4335673FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32914711-102C-44D1-9DA5-08D4335673FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61496509-6570-4111-B43D-BD4BD15493C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61496509-6570-4111-B43D-BD4BD15493C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61496509-6570-4111-B43D-BD4BD15493C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61496509-6570-4111-B43D-BD4BD15493C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3464483-AF2B-489B-AC14-822B4879BA94} = {9F933BED-98AF-4001-9B2C-786B3229E16D}
+		{32914711-102C-44D1-9DA5-08D4335673FD} = {9F933BED-98AF-4001-9B2C-786B3229E16D}
+		{61496509-6570-4111-B43D-BD4BD15493C9} = {9F933BED-98AF-4001-9B2C-786B3229E16D}
+	EndGlobalSection
+EndGlobal
